@@ -13,14 +13,6 @@ let payload = {
 // from the documentation to assest time :
 jest.useFakeTimers();
 
-// describe('handlers for main events',()=>{
-//     it (('can handle the pickup event'),()=>{
-//         const manage=require('../manage');
-//         manage.emit('pickup',payload)
-//         expect( manage.emit('pickup',payload)).toEqual(true);
-
-//     })
-// })
 
 describe("handlers for main events", () => {
   it(" can listen to pickup", () => {
